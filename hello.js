@@ -7,8 +7,8 @@ sayHello("Leah");
 sayHello("Kaylee");
 
 const returnSayHello = function (name){
-  return returnSayHello + name; 
+  return "Hello! " + name; 
 }
 
-const greeting = returnSayHello("Tyler");
+const greeting = returnSayHello('Tyler');
 console.log(greeting);
